@@ -10,12 +10,16 @@
 	</parent>
 	<groupId>com.turkcell.crm</groupId>
 	<artifactId>core</artifactId>
-	<version>0.0.6-SNAPSHOT</version>
+	<packaging>jar</packaging>
+	<version>1.0.9-SNAPSHOT</version>
 	<name>core</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
+		<maven.compiler.source>17</maven.compiler.source>
+		<maven.compiler.target>17</maven.compiler.target>
 		<java.version>17</java.version>
 	</properties>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -77,7 +81,7 @@
 	<distributionManagement>
 		<repository>
 			<id>github</id>
-			<name>Github Package Center</name>
+			<name>GitHub Packages</name>
 			<url>https://maven.pkg.github.com/berathazer/TurkcellCRMCore</url>
 		</repository>
 	</distributionManagement>
